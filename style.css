@@ -1,0 +1,75 @@
+body{
+
+    background-color: pink;
+
+}
+
+#welcome-head h1{
+
+    color: brown;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+.food{
+
+    border: 4px solid white;
+    background-color: wheat;
+    border-radius: 15px;
+    padding: 20px;
+
+
+}
+
+.food-header{
+
+    font-size: 45;
+    color: black;
+    text-align: center;
+    width: 300px;
+
+
+}
+#food-name{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    
+    
+}
+
+#meal-detail{
+
+    border: 4px solid white;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 400px;
+    margin-left: 35%;
+    margin-top: 5%;
+    display: none;
+
+}
+
+#food-name img{
+
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+
+#meal-detail img{
+
+    width: 100%;
+    height: 200px;
+
+
+}
+
+#meal-detail h3{
+
+    margin-top: 3%;
+
+
+}
